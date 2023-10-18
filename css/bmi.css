@@ -1,0 +1,102 @@
+/* 
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: orangered;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    width: 350px;
+    
+}
+
+.container h2{
+    text-align: center;
+    
+} */
+body{
+    background-color: #000000;
+background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+    
+}
+
+.mi{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    width: 350px;
+    background-image: url(./backgroundimg.jpeg);
+    box-shadow: 10px 10px 20px black;
+    
+}
+
+.mi h2{
+  text-align: center;
+  font-family: (--ff-catamaran);
+  
+}
+
+form input{
+  text-decoration: none;
+  border: 0px;
+  border-radius: 5px;
+}
+
+
+.decoration-one {
+
+    align-items: center;
+    appearance: none;
+    background-color: hsl(12, 98%, 52%);
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+    box-sizing: border-box;
+    color:white;
+    cursor: pointer;
+    display: inline-flex;
+    font-family:var(--ff-catamaran);
+    height: 30px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+     
+  }
+  
+  .decoration-one:focus {
+    box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  }
+  
+  .decoration-one:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    transform: translateY(-2px);
+  }
+  
+  .decoration-one:active {
+    box-shadow: #D6D6E7 0 3px 7px inset;
+    transform: translateY(2px);
+  }
+
+ form ::placeholder{
+    font-size: 16px;
+ }
